@@ -14,7 +14,7 @@
         <a href="{{ route('product.index') }}">商品一覧へ</a>
         @foreach ($line_items as $item)
         <div class="card mb-3">
-            <div class="row">
+            <div class="row" style="width: 100%">
                 <img src="{{ asset($item->image) }}" alt="{{ $item->name }}" class="product-cart-img"/>
                 <div class="card-body" style="width: 30%">
                     <div class="card-product-name col-6">

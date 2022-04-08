@@ -11319,7 +11319,7 @@ textarea.form-control-lg {
   padding: 12px;
 }
 .card__btn-trash {
-  padding: 12px;
+  /* padding: 12px; */
 }
 .card:hover {
   transform: scale(1.01);
@@ -11378,8 +11378,8 @@ textarea.form-control-lg {
 }
 
 .cart-wrapper {
-  width: 720px;
-  margin: 20px;
+  width: 100%;
+  /* margin: 20px; */
 }
 .cart-wrapper .card-body {
   display: flex;
