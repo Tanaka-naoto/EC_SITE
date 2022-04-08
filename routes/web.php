@@ -18,7 +18,6 @@ Route::name('product.')
 
     Route::get('/', 'ProductController@index')->name('index');
     Route::get('/product/{product}', 'ProductController@show')->name('show');
-    Route::delete('/product/destroy', 'ProductController@destroy')->name('destroy');
 });
 
 Route::name('line_item.')

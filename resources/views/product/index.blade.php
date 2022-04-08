@@ -34,11 +34,5 @@
             </a>
             @endforeach
         </div>
-        <!-- 商品一覧削除-->
-        <form method="post" action="{{ route('product.destroy') }}">
-            @csrf
-            @method('delete')
-            <button class="btn btn-danger" onclick="return confirm('本当に削除しますか？')" style="margin-left: 10px">削除</button>
-        </form>
     </div>
 @endsection

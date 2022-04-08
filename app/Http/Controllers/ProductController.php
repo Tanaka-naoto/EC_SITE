@@ -21,14 +21,4 @@ class ProductController extends Controller
 
     }
 
-    public function destroy() {
-
-        // $products = Product::all();
-        // $products->delete();
-        Product::query()->delete();
-
-        return redirect()
-            ->route('product.index')
-            ->with('message', 'プロダクトテーブルの中身をすべて削除しました。');
-    }
 }
